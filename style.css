@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("img/double-bubble.png");
+}
+
+header{
+    height: 250px;
+    background-size: cover;
+    background-image: url(img/header1.png);
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.8);
+    box-sizing: border-box;
+    position: fixed; 
+}
+nav ul li.uts{
+    float: left;
+    margin-right: 32px;
+    color: white;
+    opacity: 1;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+nav ul li.nama{
+    float: right;
+    margin-right: 32px;
+    color: white;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+
+ul li{
+    list-style-type: none;
+}
+.pembungkus{
+    width: 900px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px #D2D2D2;
+}
+.konten{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+form{
+    padding: 0 50px;
+}
+h2.nilai{
+   margin: 0;
+   padding: 0;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 0.25px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #f18901; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type=submit]:hover{
+    opacity: 0.8;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+}
+#hasilbukutamu{
+    padding: 0 50px;
+}
+#hasilbukutamu tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#hasilbukutamu tr:hover{
+    background-color: #ddd;
+}
+#hasilbukutamu th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #303030;
+    color: white;
+}
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+}
